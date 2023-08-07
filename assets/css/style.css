@@ -364,7 +364,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/44.jpg") top center;
+  background: url("https://firebasestorage.googleapis.com/v0/b/computerware-472f4.appspot.com/o/44.jpg?alt=media&token=76c7bf9e-a0f2-439b-8c18-3f7be85e1f88")
+    top center;
   background-size: cover;
   position: relative;
 }
@@ -758,12 +759,6 @@ section {
   border-radius: 50px;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-  color: #fff;
-  background: #adff2f;
-}
-
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
@@ -815,7 +810,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #adff2f;
+  color: #111;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
