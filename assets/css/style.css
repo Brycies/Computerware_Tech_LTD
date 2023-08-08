@@ -364,8 +364,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("https://firebasestorage.googleapis.com/v0/b/computerware-472f4.appspot.com/o/44.jpg?alt=media&token=76c7bf9e-a0f2-439b-8c18-3f7be85e1f88")
-    top center;
+  background: url("") top center;
   background-size: cover;
   position: relative;
 }
@@ -781,8 +780,7 @@ section {
   right: 15px;
   bottom: -50px;
   z-index: 3;
-  transition: all ease-in-out 0.3s;
-  background: #adff2f;
+
   padding: 15px 20px;
 }
 
