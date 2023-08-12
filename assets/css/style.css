@@ -781,7 +781,8 @@ section {
   right: 15px;
   bottom: -50px;
   z-index: 3;
-
+  transition: all ease-in-out 0.3s;
+  background: #adff2f;
   padding: 15px 20px;
 }
 
@@ -809,7 +810,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #111;
+  color: #f7c2cc;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
