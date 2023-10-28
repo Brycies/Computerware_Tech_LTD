@@ -2143,6 +2143,11 @@ header h2 {
     right: 20px;
     bottom: 20px;
   }
+  .team .row .member {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 20px;
+  }
   .chatbot {
     right: 0;
     bottom: 0;
