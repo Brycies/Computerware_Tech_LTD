@@ -347,7 +347,7 @@ function sendmsg() {
   var msg = document.getElementById("whats-in").value;
   var relmsg = msg.replace(/ /g, "%20");
   window.open(
-    "https://api.whatsapp.com/send?phone=99999999999&text=" + relmsg,
+    "https://api.whatsapp.com/send?phone=254 7227 14512&text=" + relmsg,
     "_blank"
   );
 }
