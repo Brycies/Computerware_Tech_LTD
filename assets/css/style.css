@@ -504,7 +504,7 @@ section {
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
 }
 .mission,
 .vision {
@@ -1872,6 +1872,7 @@ h3 span {
 
 body {
   width: 100%;
+  background-color: #6a6868;
 }
 * {
   margin: 0px;
@@ -2145,6 +2146,13 @@ header h2 {
     right: 20px;
     bottom: 20px;
   }
+  .section-title p {
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+    font-size: 13px;
+    width: 100%;
+    border: 1px solid yellow;
+  }
   .team .row .member {
     margin: auto;
     width: 50%;
@@ -2311,7 +2319,7 @@ header h2 {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #adff2f;
+  background: #80b82c;
   color: #111;
   line-height: 1;
   padding: 8px 0;
