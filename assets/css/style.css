@@ -1101,6 +1101,7 @@ h3 span {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
+  width: 70%;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1116,6 +1117,7 @@ h3 span {
   bottom: 0;
   right: 0;
   height: 40px;
+  width: 100%;
   opacity: 0;
   transition: ease-in-out 0.3s;
   background: rgba(255, 255, 255, 0.85);
@@ -1138,7 +1140,7 @@ h3 span {
 }
 
 .team .member .social a:hover {
-  color: #adff2f;
+  background-color: #adff2f;
 }
 
 .team .member .social i {
