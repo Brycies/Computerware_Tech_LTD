@@ -51,6 +51,7 @@ h6 {
 }
 
 .back-to-top i {
+  
   font-size: 28px;
   color: #fff;
   line-height: 0;
@@ -90,13 +91,13 @@ h6 {
 }
 
 #header .logo img {
-  height: 70px;
-  width: 80px;
+  height: 30px;
+  width: 100px;
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(79, 129, 38, 0.9);
+  background: rgba(244, 242, 242, 0.9);
   padding: 12px 0;
 }
 
@@ -136,7 +137,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #accb7e;
   font-size: 15px;
   padding: 0 4px;
   white-space: nowrap;
@@ -160,6 +161,7 @@ h6 {
   bottom: -6px;
   left: 0;
   background-color: #ac862f;
+  color: #fff;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -170,13 +172,13 @@ h6 {
 .navbar .active:before {
   visibility: visible;
   transform: scaleX(1);
+  color: #fff;
 }
 
 .navbar a:hover,
 .navbar .active,
-.navbar .active:focus,
 .navbar li:hover > a {
-  color: #fff;
+  color: #111;
 }
 
 .navbar .dropdown ul {
@@ -365,7 +367,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/pexels-olly-840996.jpg) top center;
   background-size: cover;
   position: relative;
 }
